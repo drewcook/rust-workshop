@@ -1,7 +1,8 @@
+# Rust Basics FEM Course
+
 There are [slides](https://docs.google.com/presentation/d/1kkTsCrMIVtxYef9T7SV-MWS-nQlnmTniAGaTl6L9Fe4/edit?usp=sharing) that go with this repo, as well as a [companion website](https://rtfeldman-rust-workshop.netlify.app/).
 
-Getting Started
-===============
+## Getting Started
 
 1. Install [Rust](https://www.rust-lang.org/tools/install) 1.51 or higher
 
@@ -25,3 +26,22 @@ cd intro-to-rust
 ```
 
 You're all set!
+
+## Next Steps
+
+Here are some example applications to build out as next steps:
+
+- Check out the `./lessons` directory for a Rust program that is a static site generator.  It built the companion site for this course.  It takes in markdown files and compiles them into HTML files.
+- Check out the [Rust Learn](https://www.rust-lang.org/learn) page for more learning an other growth guides
+  - Do the [Rustlings course](https://github.com/rust-lang/rustlings/)
+- Check out other use cases and learn more at the [Rust by Example](https://doc.rust-lang.org/stable/rust-by-example/) page
+- Build a simple web servers with a CRUD REST API, look into web server frameworks like [Actix](https://actix.rs/)
+  - However, DYOR, because there has been controversy in how they were doing manual memory management within it, which was very un-Rust-like
+- Learn how to build Web Assembly programs by compiling Rust into WASM
+
+### Front End Developer Use Cases
+
+- "The more things that you have on the screen, the more likely you'll want to reach for a performant language like Rust."
+- Games are a great use case for using Rust because games need to be quick, snappy, performant, etc.
+- Processing audio with Rust within the browser
+- Simulations and visualizations in real time
